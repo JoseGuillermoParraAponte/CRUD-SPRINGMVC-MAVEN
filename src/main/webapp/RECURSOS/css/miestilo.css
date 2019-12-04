@@ -1,0 +1,35 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: hsl(250, 17%, 93%);
+	font-family: "Roboto";
+	font-size: 16px;
+}
+
+
+.wrap {
+	width: 500px;
+	border: 1px solid rgb(45, 6, 241);
+	margin: auto;
+	padding: 30px;
+}
+
+hr {
+  height: 1px;
+  background-color: blue;
+}
+
+.marco{
+	
+	width: 80%;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+
+

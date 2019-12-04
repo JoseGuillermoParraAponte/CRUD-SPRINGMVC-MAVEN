@@ -1,0 +1,70 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: hsl(250, 17%, 93%);
+	font-family: "Roboto";
+}
+
+.wrap {
+	width: 500px;
+	border: 1px solid rgb(45, 6, 241);
+	margin: auto;
+}
+
+form {
+	width: 85%;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+}
+
+label {
+	font-size: 14px;
+	display: inline;
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	resize: vertical;
+	max-height: 100px;
+	min-height: 50px;
+}
+
+input, textarea, radiobuttons {
+	margin-bottom: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border: 1px #ccc;
+	}
+	
+	input:focus, textarea:focus {
+	border: 1px solid rgb(67, 9, 228);
+}
+
+input[type="submit"] {
+	margin-bottom: 0px;
+	background: blue;
+	color: #fff;
+	border: none;
+	margin-top:10px;
+}
+input[type="reset"] {
+	margin-bottom: 0px;
+	background: blue;
+	color: #fff;
+	margin-top:10px;
+	border: none;
+}
+input[type="submit"]:hover {
+	background: #4A88F4;
+	cursor: pointer;
+}
+
+input[type="reset"]:hover {
+	background: #4A88F4;
+	cursor: pointer;
+}
